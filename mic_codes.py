@@ -42,3 +42,5 @@ except requests.exceptions.RequestException as e:
     error_message = f"An error occurred while downloading the file: {e}"
     print(error_message)
     log_event("ERROR", error_message)
+
+    #testing
